@@ -159,7 +159,7 @@ docker-compose up --build
 ```
 
 - **Frontend:** [http://localhost:3000](http://localhost:3000)
-- **Backend API Docs:** [http://localhost:8000/docs](http://localhost:8000/docs)
+- **Backend API Docs:** [http://localhost:8001/docs](http://localhost:8001/docs)
 
 ---
 
@@ -170,7 +170,7 @@ docker-compose up --build
 ```bash
 cd backend
 pip install -r requirements.txt
-uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+uvicorn app.main:app --host 127.0.0.1 --port 8001 --reload
 ```
 
 Run test suite:
